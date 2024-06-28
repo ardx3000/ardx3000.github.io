@@ -1,7 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Resume</title>
+    <link rel="stylesheet" href="src/styles.css">
+    <script src="src/script.js" defer></script>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <nav>
+        <a href="javascript:void(0);" onclick="loadPage('home')">Home</a>
+        <a href="javascript:void(0);" onclick="loadPage('aboutme')">About</a>
+        <a href="javascript:void(0);" onclick="loadPage('experience')">Experience</a>
+        <a href="javascript:void(0);" onclick="loadPage('projects')">Projects</a>
+        <a href="javascript:void(0);" onclick="loadPage('contact')">Contact</a>
+        <div class="animation start-home"></div>
+    </nav>
+    <div id="content">
+        <h1>Home</h1>
+    </div>
 </body>
 </html>
